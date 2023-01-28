@@ -1,0 +1,235 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #494399;
+    width: 100%;
+    height: 110vh;
+}
+/* Cabeçalho */
+
+.fundo-azul-claro {
+    background-color: #72efe9;
+    height: 202px;
+    margin-top: 274px;
+    margin-bottom: 0;
+}
+
+header {
+    background-color: #494399;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 630px;
+    padding: 25px 23px;
+}
+
+.menu-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;  
+}
+
+i#barra-menu {
+    font-size: 22px;
+}
+
+i#barra-menu:hover {
+    color: #a1a1a1;
+    transition: none;
+    transform: none;
+}
+
+i {
+    color: white;
+    transition: all 0.4s;
+
+}
+
+i:hover {
+    transform: scale(1.15);
+    transition: all 0.4s;
+}
+
+a#bar {
+    padding:  0px 25px;
+}
+
+
+i#facebook-menu {
+    background-color: rgb(59, 89, 152);
+    padding: 6px 10px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+i#twitter-menu {
+    background-color: rgb(85, 172, 238);
+    padding: 6px 7px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+i#instagram-menu {
+    background-color: rgb(197, 54, 164);
+    padding: 6px 8px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+/* Conteúdo Principal */
+
+.container {
+    display: flex;
+    margin: -406px auto 60px;
+    width: 80%;
+    height: 90%;
+    padding-bottom: 40px;
+    
+}
+
+.container-img{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(28,17,96);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img-robo {
+    width: 100%;
+    height: 100%;
+}
+
+.img-main {
+    width: 100%;
+    height: 100%;
+}
+
+.container-conteudo {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    font-style: italic;
+    color: rgb(66, 63, 102);
+    width: 100%;
+    height: 100%;
+}
+
+.learn-more {
+    background-color: #72efe9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+}
+
+h1 {
+    font-family: Ubuntu , sans-serif;
+    font-size: 1.5rem;
+    color: #494399;
+    margin: 0;
+}
+
+p#freepik {
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 71px 0 0;
+    padding: 10px 0px 30px 0px;
+    font-size: 16px;
+}
+
+button {
+    border: none;
+    background-color: white;
+    padding: 13px 31px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    font-family: Ubuntu , sans-serif;
+    margin-top: 3px;
+    color: #494399;
+}
+
+button:hover {
+    background-color: #494399;
+    color: white;
+    cursor: pointer;
+}
+
+.credits-main {
+    border-style: none none solid;
+    border-width: 1px;
+    padding-bottom: 2px;
+}
+
+a#credits {
+    color: black;
+    text-decoration: none;
+}
+
+.credits-main:hover {
+    border: none;
+}
+
+.main-text {
+    background-color: #c2bfed;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+/* Roda-pé */
+
+footer {
+    color: #fff;
+    background-color: #333333;
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 0.9rem;
+}
+
+.text-footer {
+    text-align: center;
+}
+
+.credits{
+    font-size: 0.8rem;
+}
+
+.credits-footer {
+    color: #c2bfed;
+}
+
+.credits-footer:hover{
+    text-decoration: none;
+    color: rgb(158, 158, 158);
+}
+
+.container-footer2 {
+    margin-bottom: 20px;
+}

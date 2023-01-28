@@ -1,0 +1,21 @@
+/* Responsividade */
+
+@media screen and (max-width: 1080px){
+
+    .container-img {
+        display: none;
+    }
+
+    .container-conteudo{
+        width: 100%;
+    }
+
+    header {
+        gap: 0px;
+    }
+
+    .container-footer2 {
+        margin-bottom: 20px;
+    }
+    
+}
